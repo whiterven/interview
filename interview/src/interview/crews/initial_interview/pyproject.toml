@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "initial_interview"
+version = "0.1.0"
+description = "initial_interview using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.70.1,<1.0.0" }
+
+
+[tool.poetry.scripts]
+initial_interview = "initial_interview.main:run"
+run_crew = "initial_interview.main:run"
+train = "initial_interview.main:train"
+replay = "initial_interview.main:replay"
+test = "initial_interview.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,28 @@
+review_resume:
+  description: >
+    Carefully analyze the provided resume. Extract and list all key details 
+    including but not limited to: educational background, work experience, 
+    skills, certifications, and notable achievements. Pay special attention 
+    to information that might be relevant. Do not 
+    overlook any potentially important details.
+  expected_output: >
+    A comprehensive, well-structured list of all relevant information from 
+    the resume, organized by categories (e.g., Education, Experience, Skills, Awards Certificates and more). 
+    Include any unique or standout elements that might be particularly relevant.
+  agent: resume_reviewer
+
+evaluate_candidate:
+  description: >
+    Using the detailed resume analysis and the job description, evaluate 
+    the candidate's suitability for the role. Consider both direct matches 
+    in skills and experience, as well as transferable skills or experiences 
+    that could be valuable. Provide a numerical score out of 100 and a 
+    detailed justification for your evaluation.
+  expected_output: >
+    A comprehensive report including:
+    1. Numerical score out of 100
+    2. Detailed analysis of how the candidate's profile matches the job requirements
+    3. Strengths and potential areas of concern
+    4. Recommendation on whether the candidate should proceed to the next stage
+    5. Any additional insights or observations
+  agent: job_matcher

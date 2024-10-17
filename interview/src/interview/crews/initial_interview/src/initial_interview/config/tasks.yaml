@@ -1,0 +1,31 @@
+conduct_initial_interview:
+  description: >
+    Review the job description and the candidate's resume details. Prepare 
+    and ask 5 relevant questions to the candidate. Wait up to 7 minutes for 
+    each answer. If no answer is received within 7 minutes, assign a score 
+    of zero for that question. Evaluate and score each answer provided.
+  expected_output: >
+    A detailed report containing:
+    1. The 5 questions asked
+    2. The candidate's answers (or note of no response if applicable)
+    3. Score for each question (out of 20, with 0 for no response)
+    4. Brief analysis of each answer
+    5. Total score out of 100
+    6. Overall impression and recommendation
+  agent: interviewer
+
+make_final_decision:
+  description: >
+    Review all previous evaluations including the resume analysis, initial 
+    job fit evaluation, and the results of the initial interview. Based on 
+    this comprehensive information, make a final decision on whether to 
+    proceed with a full interview.
+  expected_output: >
+    A final report containing:
+    1. Summary of all previous evaluations
+    2. Analysis of the candidate's strengths and potential weaknesses
+    3. Final decision (proceed to full interview or not)
+    4. Justification for the decision
+    5. If proceeding, suggested areas to focus on in the full interview
+    6. If not proceeding, constructive feedback for the candidate
+  agent: final_evaluator

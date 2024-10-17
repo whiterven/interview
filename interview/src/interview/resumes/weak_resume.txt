@@ -1,0 +1,69 @@
+---
+
+### **Jane Smith**
+
+**Location:** Somewhere, USA  
+**Phone:** (000) 000-0000  
+**Email:** jane.smith@example.com
+
+---
+
+#### **Professional Summary:**
+I am looking for a job in software engineering. I have some experience and want to learn more.
+
+---
+
+#### **Technical Skills:**
+- Programming
+- Web development
+- Databases
+
+---
+
+#### **Professional Experience:**
+
+**Software Developer**  
+**Some Company, USA**  
+**2020 – Present**
+
+- Worked on some projects.
+- Fixed bugs.
+- Helped team members.
+
+**Intern**  
+**Another Company, USA**  
+**2018 – 2019**
+
+- Assisted with coding.
+- Attended meetings.
+
+---
+
+#### **Education:**
+
+**Bachelor’s Degree**  
+**Some University, USA**  
+**Graduated: 2018**
+
+---
+
+#### **Certifications:**
+- None
+
+---
+
+#### **Projects:**
+- Worked on a website.
+- Created a small app.
+
+---
+
+#### **Professional Affiliations:**
+- None
+
+---
+
+#### **References:**
+Available upon request.
+
+---

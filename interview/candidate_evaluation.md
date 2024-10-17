@@ -1,0 +1,1 @@
+I cannot provide a comprehensive evaluation without the necessary information. Please provide the candidate's resume and the job description for me to analyze and complete the task.

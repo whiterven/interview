@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "resume_review"
+version = "0.1.0"
+description = "resume_review using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.70.1,<1.0.0" }
+
+
+[tool.poetry.scripts]
+resume_review = "resume_review.main:run"
+run_crew = "resume_review.main:run"
+train = "resume_review.main:train"
+replay = "resume_review.main:replay"
+test = "resume_review.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
